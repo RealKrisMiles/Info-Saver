@@ -21,7 +21,7 @@ export default function App() {
       element:<><Navbar/>  <Read/></>
     },
     {
-      path:"/update",
+      path:"/:id",
       element:<><Navbar/>  <Update/></>
     }
   ])
